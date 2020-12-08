@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, /* h2,*/ h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* конец выравнивания */
+
+/* мое оформление */
+body {
+    background-color: ghostwhite;
+    background-image: url(images/67.jpg);
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    font-family: Pangolin;
+}
+/* шапка сайта */
+#title {
+    width: 593px;
+    height: 175px;
+    position: absolute;
+    left: 420px;
+    top: 0px;
+}
+
+#h1 {
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 75px;
+    text-align: left;
+    color: ghostwhite;
+    font-size: 60px;
+}
+
+#h1 a {
+    color: ghostwhite;
+}
+
+#menuImg {
+    height: 190px;
+    width: 195px;
+    position: absolute;
+    left: 1120px;
+    top: 0px;
+}
+
+#logo1 {
+    height: 170px;
+    width: 295px;
+}
+
+#logo2 {
+    height: 190px;
+    width: 200px;
+}
+
+#about {
+    margin: 55px;
+    text-align: justify;
+}
+ /* навигация */
+#navigation {
+    margin: 32px;
+    width: 1300px;
+    height: 36px;
+}
+
+.navigateMenu {
+    float: left;
+}
+
+.navigateMenu a {
+    color: ghostwhite;
+    height: 36px;
+    font-size: 20px;
+    padding: 0 80px;
+    line-height: 36px;
+}
+
+.navigateMenu :hover {
+    color: black;
+    display: block;
+    height: 36px;
+}
+
+.navigateMenu .dropdownSeasons {
+    background: grey;
+    width: auto;
+    display: none;
+}
+
+#navigation li:hover .dropdownSeasons {
+    display: block;
+    position: relative;
+}
+
+/* первый параграф */
+.p1 {
+    font-size: 20px; 
+    text-decoration: none;
+    text-transform: initial;
+    text-indent: 15px;
+    font-variant: small-caps;
+}
+
+/* список */
+#styles {
+    list-style-image: url(images/1.png);
+    list-style-position: inside;
+}
+
+#characters {
+    position: absolute;
+    left: 95px;
+    top: auto;
+}
+
+#listCharacters {
+    font-variant: small-caps;
+    text-decoration: underline;
+}
+
+/* ссылки */
+a {
+    color: black;
+    text-decoration: none;
+}
